@@ -3,74 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Lost in the Digital Wilderness</title>
+    <title>404 - Package Not Delivered</title>
     <style>
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             padding: 40px;
             text-align: center;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #f7f9fc;
+            color: #2c3e50;
         }
         .container {
-            max-width: 600px;
+            max-width: 650px;
             margin: 0 auto;
-            border: 2px dashed #ff6b6b;
+            border: 3px solid #e74c3c; /* Red for error */
             padding: 30px;
-            border-radius: 15px;
+            border-radius: 10px;
             background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #ff6b6b;
-            font-size: 3em;
-            margin-bottom: 5px;
+            color: #e74c3c;
+            font-size: 4em;
+            margin-bottom: 0;
         }
         h2 {
-            color: #4a4e69;
-            font-size: 1.5em;
-            margin-top: 0;
+            color: #34495e;
+            font-size: 1.6em;
+            margin-top: 10px;
         }
-        .helpful-tip {
-            margin: 20px 0;
+        .message {
+            margin: 25px 0;
             padding: 15px;
-            background-color: #eaf8f5;
-            border-left: 5px solid #1abc9c;
+            background-color: #fceae8;
+            border-radius: 8px;
         }
         .home-link a {
             display: inline-block;
             margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #1abc9c;
+            padding: 12px 25px;
+            background-color: #3498db;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 50px; /* Pill shape */
+            font-weight: bold;
             transition: background-color 0.3s;
         }
         .home-link a:hover {
-            background-color: #16a085;
+            background-color: #2980b9;
         }
-        footer { margin-top: 30px; font-size: 0.9em; color: #666; }
+        footer { margin-top: 30px; font-size: 0.9em; color: #7f8c8d; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>404 Error! 🧭</h1>
-        <h2>Oops! It looks like you've taken a wrong turn.</h2>
+        <h1>📦 404</h1>
+        <h2>Delivery Interrupted! We can't find your page.</h2>
 
-        <div class="helpful-tip">
-            <p><strong>This page doesn't exist.</strong> We checked everywhere!</p>
-            <p>It's possible the link is old or you mistyped the address.</p>
+        <div class="message">
+            <p><strong>Tracking status:</strong> The page you requested could not be located at this address.</p>
+            <p>It seems the URL was either changed, deleted, or entered incorrectly.</p>
         </div>
 
         <p class="home-link">
-            <a href="/">Take Me Back Home Safely!</a>
+            <a href="/">Check the Main Hub (Go Home)</a>
         </p>
 
     </div>
     <footer>
-        <p>If the problem persists, please contact the site administrator:</p>
+        <p>If you believe this page should exist, please report the broken link to:</p>
         <p>Email: **24f3005146@ds.study.iitm.ac.in**</p>
     </footer>
 </body>
